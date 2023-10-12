@@ -22,5 +22,9 @@ python -m pip install --upgrade pip
 python -m pip install django
 
 # Run
-pip install -r requirements.txt
-python manage.py runserver
+> pip install -r requirements.txt
+
+If you are using SQLLite3 as database, please run the migrations
+>python manage.py migrate
+
+>python manage.py runserver
